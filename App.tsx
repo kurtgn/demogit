@@ -86,6 +86,9 @@ function App(): JSX.Element {
           <Section title="Step two">
             <Text>Some step two</Text>.
           </Section>
+          <Section title="Step two">
+            <Text>Some step three</Text>.
+          </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>
