@@ -10,5 +10,5 @@ import {name as appName} from './app.json';
 const b = 10/0;
 
 
-const AppRenderer = () => App;
-AppRegistry.registerComponent(appName, AppRenderer);
+const AppRendererFunc = () => App;
+AppRegistry.registerComponent(appName, AppRendererFunc);
