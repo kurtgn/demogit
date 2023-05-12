@@ -81,7 +81,7 @@ function App(): JSX.Element {
             screen and then come back to see your edits.
           </Section>
           <Section title="Step two">
-            Some step two
+            <Text>Some step two</Text>.
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
