@@ -63,7 +63,7 @@ function App(): JSX.Element {
   };
 
 
-  const a = 1/0;  // что может пойти не так?..
+  const a = 50/0;  // что может пойти не так?..
 
   return (
     <SafeAreaView style={backgroundStyle}>
